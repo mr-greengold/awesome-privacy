@@ -1,0 +1,26 @@
+title: PDF Tools
+slug: pdf-tools
+intro: Most online PDF tools upload your document to their server before working on it, then promise to delete it later. Prefer tools that do the processing on your own device.
+avoid:
+  items:
+    - name: iLovePDF
+      reason: uploads your documents to its servers, and the Android app has 7 trackers.
+      tosdr: en_7842
+      exodus: com.ilovepdf.www
+    - name: Smallpdf
+      reason: uploads your documents to its servers, and the Android app has 3 trackers.
+      tosdr: en_6244
+      exodus: com.smallpdf.app.android
+recommend:
+  entries:
+    - name: BentoPDF
+      url: https://bentopdf.com/
+      repo: https://github.com/alam00000/bentopdf
+      description: Browser-based PDF toolkit to merge, split, compress, sign and redact, with files processed on your device.
+      license: AGPL-3.0
+      added: 2026-11-02
+      platforms:
+        - web
+      tags:
+        - self-host
+        - offline

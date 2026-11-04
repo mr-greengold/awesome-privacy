@@ -1,0 +1,28 @@
+title: Dating Apps
+slug: dating-apps
+intro: Mainstream dating apps collect intimate data and profit from it. Tinder in particular has been found to [charge some users up to five times more for the same service](https://www.mozillafoundation.org/en/blog/new-research-tinders-opaque-unfair-pricing-algorithm-can-charge-users-up-to-five-times-more-for-same-service/), [estimate your intelligence and other traits and pass them to third parties](https://www.reddit.com/r/privacy/comments/k7x4s7/tinder_extrapolates_estimations_on_your/), and [keep far more about you than you might expect](https://www.theguardian.com/technology/2017/sep/26/tinder-personal-data-dating-app-messages-hacked-sold).
+avoid:
+  items:
+    - name: Tinder
+      reason: 8 trackers in its Android app, under a very poorly rated privacy policy.
+      tosdr: en_462
+      exodus: com.tinder
+    - name: Grindr
+      reason: fined in Norway for sharing users' location and sexual orientation with advertisers.
+      source: https://techcrunch.com/2021/12/15/grindr-final-gdpr-fine/
+    - name: Badoo
+      reason: 30 trackers in its Android app, most of them for advertising.
+      exodus: com.badoo.mobile
+    - name: Lovoo
+      reason: 33 trackers in its Android app, most of them for advertising.
+      exodus: net.lovoo.android
+recommend:
+  entries:
+    - name: Alovoa
+      url: https://alovoa.com/
+      repo: https://github.com/Alovoa/alovoa
+      description: Dating platform with no ads, no paid features and no selling of your data.
+      license: AGPL-3.0
+      package_id: com.alovoa.expo
+      added: 2022-03-02
+      fdroid: true
